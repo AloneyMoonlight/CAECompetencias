@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace CAECompetencias
 {
-    public partial class Form1 : Form
+    public partial class Administrador : Form
     {
-        public Form1()
+        public Administrador()
         {
             InitializeComponent();
+        }
+
+        private void pUsuarios_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pReportes_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
